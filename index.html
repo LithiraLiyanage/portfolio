@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700;1,800&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 <style>
 :root {
   --bg: #07071a;
@@ -262,7 +263,7 @@ section{padding:6rem 0;position:relative;z-index:1}
 .skill-group-title{display:flex;align-items:center;gap:0.7rem;font-weight:500;font-size:0.95rem;margin-bottom:1.3rem}
 .skill-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px}
 .tags{display:flex;flex-wrap:wrap;gap:0.5rem}
-.tag{font-family:var(--mono);font-size:0.73rem;padding:0.28rem 0.75rem;border-radius:6px;border:1px solid var(--border2);color:var(--text2);background:var(--bg3);transition:all 0.2s;cursor:default}
+.tag{font-family:var(--mono);font-size:0.73rem;padding:0.28rem 0.75rem;border-radius:6px;border:1px solid var(--border2);color:var(--text2);background:var(--bg3);transition:all 0.2s;cursor:default;display:inline-flex;align-items:center;gap:0.4rem}.tag i{font-size:1rem;line-height:1}
 .tag:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,212,255,0.07);transform:translateY(-1px)}
 
 /* PROJECTS */
@@ -505,27 +506,63 @@ footer p{font-size:0.81rem;color:var(--text3);font-family:var(--mono)}
     <div class="skills-grid">
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(124,110,255,0.22),rgba(168,85,247,0.15))">🖥️</div>Languages</div>
-        <div class="tags"><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span><span class="tag">C#</span><span class="tag">C++</span><span class="tag">Kotlin</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+          <span class="tag"><i class="devicon-python-plain colored"></i>Python</span>
+          <span class="tag"><i class="devicon-java-plain colored"></i>Java</span>
+          <span class="tag"><i class="devicon-c-plain colored"></i>C</span>
+          <span class="tag"><i class="devicon-csharp-plain colored"></i>C#</span>
+          <span class="tag"><i class="devicon-cplusplus-plain colored"></i>C++</span>
+          <span class="tag"><i class="devicon-kotlin-plain colored"></i>Kotlin</span>
+        </div>
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(255,107,107,0.2),rgba(247,37,133,0.15))">🎨</div>Frontend</div>
-        <div class="tags"><span class="tag">React</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Tailwind</span><span class="tag">Responsive UI</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-react-original colored"></i>React</span>
+          <span class="tag"><i class="devicon-html5-plain colored"></i>HTML5</span>
+          <span class="tag"><i class="devicon-css3-plain colored"></i>CSS3</span>
+          <span class="tag"><i class="devicon-tailwindcss-plain colored"></i>Tailwind</span>
+          <span class="tag"><i class="devicon-bootstrap-plain colored"></i>Responsive UI</span>
+        </div>
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(0,212,255,0.18),rgba(0,229,200,0.15))">⚙️</div>Backend &amp; APIs</div>
-        <div class="tags"><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST APIs</span><span class="tag">.NET Core</span><span class="tag">Spring Boot</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+          <span class="tag"><i class="devicon-express-original"></i>Express.js</span>
+          <span class="tag"><i class="devicon-swagger-plain colored"></i>REST APIs</span>
+          <span class="tag"><i class="devicon-dot-net-plain colored"></i>.NET Core</span>
+          <span class="tag"><i class="devicon-spring-plain colored"></i>Spring Boot</span>
+        </div>
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(245,200,66,0.2),rgba(247,151,30,0.15))">🗄️</div>Databases</div>
-        <div class="tags"><span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">MongoDB Atlas</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-mongodb-plain colored"></i>MongoDB</span>
+          <span class="tag"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+          <span class="tag"><i class="devicon-mongodb-plain colored"></i>MongoDB Atlas</span>
+        </div>
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(67,233,123,0.2),rgba(0,229,200,0.12))">📱</div>Mobile</div>
-        <div class="tags"><span class="tag">Android (Kotlin)</span><span class="tag">Android Studio</span><span class="tag">Shared Preferences</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-android-plain colored"></i>Android (Kotlin)</span>
+          <span class="tag"><i class="devicon-androidstudio-plain colored"></i>Android Studio</span>
+          <span class="tag"><i class="devicon-kotlin-plain colored"></i>Shared Preferences</span>
+        </div>
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-title"><div class="skill-icon" style="background:linear-gradient(135deg,rgba(247,37,133,0.18),rgba(168,85,247,0.12))">🛠️</div>Tools &amp; Concepts</div>
-        <div class="tags"><span class="tag">Git / GitHub</span><span class="tag">Postman</span><span class="tag">Power BI</span><span class="tag">Agile</span><span class="tag">CI/CD</span><span class="tag">MVC</span><span class="tag">CRUD</span></div>
+        <div class="tags">
+          <span class="tag"><i class="devicon-git-plain colored"></i>Git / GitHub</span>
+          <span class="tag"><i class="devicon-github-original"></i>Postman</span>
+          <span class="tag"><i class="devicon-azuredevops-plain colored"></i>Power BI</span>
+          <span class="tag"><i class="devicon-jira-plain colored"></i>Agile</span>
+          <span class="tag"><i class="devicon-docker-plain colored"></i>CI/CD</span>
+          <span class="tag"><i class="devicon-dot-net-plain colored"></i>MVC</span>
+          <span class="tag"><i class="devicon-postgresql-plain colored"></i>CRUD</span>
+        </div>
       </div>
     </div>
   </div>
