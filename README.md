@@ -47,6 +47,7 @@ The portfolio is designed with a modern dark-blue developer theme, animated UI e
 ## 🧑‍💻 Featured Projects
 
 ### 1. CodeGuard AI
+
 **AI Code Review & Bug Detection Platform**
 
 A full-stack AI-assisted code review platform that analyzes pasted code, uploaded files, and public GitHub repositories for bugs, code smells, security issues, and complexity problems.
@@ -58,6 +59,7 @@ A full-stack AI-assisted code review platform that analyzes pasted code, uploade
 ---
 
 ### 2. BankFlow
+
 **Digital Banking & Transaction Management System**
 
 A secure digital banking system with account management, deposits, withdrawals, transfers, transaction history, audit logs, PDF statements, fraud-detection rules, and admin monitoring workflows.
@@ -69,6 +71,7 @@ A secure digital banking system with account management, deposits, withdrawals, 
 ---
 
 ### 3. HireHub ATS
+
 **Smart Job Portal & Applicant Tracking System**
 
 A MERN-based applicant tracking system with candidate, recruiter, and admin workflows including job search, saved jobs, applications, status tracking, resume upload, shortlisting, rejection, and interview scheduling.
@@ -80,6 +83,7 @@ A MERN-based applicant tracking system with candidate, recruiter, and admin work
 ---
 
 ### 4. UniSync
+
 **Smart Campus Platform**
 
 A smart campus platform integrating academic, transport, marketplace, and student-life services into a single university ecosystem with modular REST API workflows.
@@ -91,6 +95,7 @@ A smart campus platform integrating academic, transport, marketplace, and studen
 ---
 
 ### 5. Vehicle Management System
+
 **MERN Vehicle Management & Tracking System**
 
 A MERN-based vehicle management system for vehicle records, CRUD operations, user workflows, administrative management, and vehicle tracking functionality using Leaflet.
@@ -129,46 +134,69 @@ portfolio/
 │
 ├── index.html
 └── README.md
+```
 
-▶️ Run Locally
+---
+
+## ▶️ Run Locally
 
 Clone the repository:
 
+```bash
 git clone https://github.com/LithiraLiyanage/portfolio.git
+```
 
 Open the project folder:
 
+```bash
 cd portfolio
+```
 
 Run using VS Code Live Server or simply open:
 
+```bash
 index.html
-🚀 Deployment
+```
 
-This portfolio is deployed using Vercel.
+---
+
+## 🚀 Deployment
+
+This portfolio is deployed using **Vercel**.
 
 To update the live portfolio:
 
+```bash
 git add .
 git commit -m "Update portfolio website"
 git push origin main
+```
 
 Vercel will automatically redeploy the latest version.
 
-📄 CV
+---
+
+## 📄 CV
 
 My latest internship-focused CV is available inside the portfolio website.
 
-🔗 Download CV from Portfolio
+🔗 [Download CV from Portfolio](https://lithira-liyanage.vercel.app)
 
-📬 Contact
-📧 Email: lithiraliyanage666@gmail.com
-📞 Phone: +94 760 163 929
-🔗 LinkedIn: linkedin.com/in/lithira-liyanage-667b99403
-💻 GitHub: github.com/LithiraLiyanage
+---
+
+## 📬 Contact
+
+- 📧 **Email:** lithiraliyanage666@gmail.com
+- 📞 **Phone:** +94 760 163 929
+- 🔗 **LinkedIn:** [linkedin.com/in/lithira-liyanage-667b99403](https://linkedin.com/in/lithira-liyanage-667b99403)
+- 💻 **GitHub:** [github.com/LithiraLiyanage](https://github.com/LithiraLiyanage)
+
+---
+
 <div align="center">
-⭐ Thank you for visiting my portfolio repository!
+
+### ⭐ Thank you for visiting my portfolio repository!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:2563EB,100:020617&height=120&section=footer" width="100%" />
 
-</div> ```
+</div>
