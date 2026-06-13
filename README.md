@@ -12,6 +12,14 @@
 
 ---
 
+<div align="center">
+
+## 🖼️ Portfolio Preview
+
+<img src="./portfolio-preview.png" alt="Lithira Liyanage Portfolio Preview" width="100%" />
+
+</div>
+
 ## 🚀 Live Portfolio
 
 🔗 **Portfolio:** [lithira-liyanage.vercel.app](https://lithira-liyanage.vercel.app)  
