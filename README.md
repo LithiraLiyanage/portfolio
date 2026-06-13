@@ -198,7 +198,8 @@ My latest internship-focused CV is available inside the portfolio website.
 - 📞 **Phone:** +94 760 163 929
 - 🔗 **LinkedIn:** [linkedin.com/in/lithira-liyanage-667b99403](https://linkedin.com/in/lithira-liyanage-667b99403)
 - 💻 **GitHub:** [github.com/LithiraLiyanage](https://github.com/LithiraLiyanage)
-
+- ✍️ Medium :** https://medium.com/@lithiraliyanage666
+  
 ---
 
 <div align="center">
