@@ -23,8 +23,11 @@
 ## 🚀 Live Portfolio
 
 🔗 **Portfolio:** [lithira-liyanage.vercel.app](https://lithira-liyanage.vercel.app)  
+
 🔗 **GitHub:** [github.com/LithiraLiyanage](https://github.com/LithiraLiyanage)  
+
 🔗 **LinkedIn:** [linkedin.com/in/lithira-liyanage-667b99403](https://linkedin.com/in/lithira-liyanage-667b99403)
+
 🔗 **Medium:** (https://medium.com/@lithiraliyanage666)
 
 ---
